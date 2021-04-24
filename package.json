@@ -1,0 +1,30 @@
+{
+  "name": "img-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "demo": "npm build; http-server"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "cz-conventional-changelog": "3.2.0",
+    "eslint": "^7.4.0",
+    "http-server": "^0.12.3",
+    "prettier": "^2.0.5",
+    "rollup": "^1.29.0",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
